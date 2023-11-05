@@ -1,0 +1,16 @@
+{
+  "name": "typescript-node-native-tests",
+  "version": "1.0.0",
+  "description": "A simple package illustrating how to use native node.js test runner with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "test",
+    "typescript",
+    "node-test-runner"
+  ],
+  "author": "Thiago R. V. Martins",
+  "license": "ISC"
+}
