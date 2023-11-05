@@ -12,5 +12,8 @@
     "node-test-runner"
   ],
   "author": "Thiago R. V. Martins",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
