@@ -4,7 +4,7 @@
   "description": "A simple package illustrating how to use native node.js test runner with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --import tsx --test test/*.spec.ts"
   },
   "keywords": [
     "test",
@@ -14,6 +14,7 @@
   "author": "Thiago R. V. Martins",
   "license": "ISC",
   "devDependencies": {
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   }
 }
